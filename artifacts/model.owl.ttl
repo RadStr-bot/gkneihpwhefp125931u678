@@ -1,0 +1,18 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix prof: <http://www.w3.org/ns/dx/prof/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix : <https://example.com/vocabulary#>.
+
+<https://example.com/vocabulary#> a owl:Ontology, prof:Profile.
+:joyousHand a owl:Class, rdfs:Class;
+    rdfs:label "Joyous Hand"@en;
+    rdfs:isDefinedBy <https://example.com/vocabulary#>;
+    rdfs:subClassOf :disturbedProblem.
+:funnyEducation a owl:Class, rdfs:Class;
+    rdfs:label "Funny Education"@en;
+    rdfs:isDefinedBy <https://example.com/vocabulary#>;
+    rdfs:subClassOf :joyousHand.
+:disturbedProblem a owl:Class, rdfs:Class;
+    rdfs:label "Disturbed Problem"@en;
+    rdfs:isDefinedBy <https://example.com/vocabulary#>.
