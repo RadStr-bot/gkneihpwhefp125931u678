@@ -1,0 +1,83 @@
+{
+  "identifier": "99ba77eb-2225-422c-9c5e-c39cd555d38b",
+  "version": 1,
+  "type": "http://dataspecer.com/resources/local/visual-model",
+  "entities": [
+    {
+      "identifier": "99ba77eb-2225-422c-9c5e-c39cd555d38b-model-metadata-entity",
+      "type": [
+        "entity-model-type"
+      ],
+      "label": {
+        "en": "Main view"
+      }
+    },
+    {
+      "model": "d931b5dc-66a8-4719-ae0c-33f0c17a80d7",
+      "representedEntity": "ehp7ayeol1qmq3j3ef3",
+      "position": {
+        "x": 480,
+        "y": 310,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "ptf5y"
+    },
+    {
+      "model": "d931b5dc-66a8-4719-ae0c-33f0c17a80d7",
+      "representedEntity": "udywn9o0tcmq3j3l6y",
+      "position": {
+        "x": 880,
+        "y": 200,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "71s36"
+    },
+    {
+      "model": "d931b5dc-66a8-4719-ae0c-33f0c17a80d7",
+      "representedRelationship": "pe9crcko9cmmq3j3l70",
+      "waypoints": [],
+      "visualSource": "ptf5y",
+      "visualTarget": "71s36",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "dynq"
+    },
+    {
+      "model": "d931b5dc-66a8-4719-ae0c-33f0c17a80d7",
+      "representedEntity": "fowvbz2ysvjmq3j3qj8",
+      "position": {
+        "x": -30,
+        "y": 140,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "lyljp"
+    },
+    {
+      "model": "d931b5dc-66a8-4719-ae0c-33f0c17a80d7",
+      "representedRelationship": "104sd0os2spmq3j3qj9",
+      "waypoints": [],
+      "visualSource": "lyljp",
+      "visualTarget": "ptf5y",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "lje23"
+    }
+  ]
+}

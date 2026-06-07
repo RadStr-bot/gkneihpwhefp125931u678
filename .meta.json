@@ -1,0 +1,19 @@
+{
+  "iri": "77598047-07c5-41fb-b9b6-936d1d0e7f2b",
+  "projectIri": "079148ba-4fe4-4189-86ec-c12b8865bf43",
+  "types": [
+    "http://dataspecer.com/resources/local/package"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "abdefc"
+    },
+    "description": {
+      "en": ""
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

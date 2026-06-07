@@ -1,0 +1,19 @@
+{
+  "iri": "d931b5dc-66a8-4719-ae0c-33f0c17a80d7",
+  "projectIri": "ca95e066-6ee9-433f-a146-c17fdc1dbff2",
+  "types": [
+    "http://dataspecer.com/resources/local/semantic-model"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "abdefc"
+    },
+    "description": {
+      "en": "Semantic model for the vocabulary"
+    }
+  },
+  "metadata": {},
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

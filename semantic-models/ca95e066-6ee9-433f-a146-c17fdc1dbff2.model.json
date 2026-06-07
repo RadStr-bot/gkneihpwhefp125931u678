@@ -1,0 +1,62 @@
+{
+  "type": "http://dataspecer.com/resources/local/semantic-model",
+  "modelId": "d931b5dc-66a8-4719-ae0c-33f0c17a80d7",
+  "modelAlias": "abdefc",
+  "baseIri": "https://example.com/vocabulary#",
+  "entities": {
+    "ehp7ayeol1qmq3j3ef3": {
+      "iri": "joyousHand",
+      "name": {
+        "en": "Joyous Hand"
+      },
+      "description": {},
+      "externalDocumentationUrl": null,
+      "id": "ehp7ayeol1qmq3j3ef3",
+      "type": [
+        "class"
+      ]
+    },
+    "udywn9o0tcmq3j3l6y": {
+      "iri": "disturbedProblem",
+      "name": {
+        "en": "Disturbed Problem"
+      },
+      "description": {},
+      "externalDocumentationUrl": null,
+      "id": "udywn9o0tcmq3j3l6y",
+      "type": [
+        "class"
+      ]
+    },
+    "pe9crcko9cmmq3j3l70": {
+      "id": "pe9crcko9cmmq3j3l70",
+      "iri": null,
+      "child": "ehp7ayeol1qmq3j3ef3",
+      "parent": "udywn9o0tcmq3j3l6y",
+      "type": [
+        "generalization"
+      ]
+    },
+    "fowvbz2ysvjmq3j3qj8": {
+      "iri": "funnyEducation",
+      "name": {
+        "en": "Funny Education"
+      },
+      "description": {},
+      "externalDocumentationUrl": null,
+      "id": "fowvbz2ysvjmq3j3qj8",
+      "type": [
+        "class"
+      ]
+    },
+    "104sd0os2spmq3j3qj9": {
+      "id": "104sd0os2spmq3j3qj9",
+      "iri": null,
+      "child": "fowvbz2ysvjmq3j3qj8",
+      "parent": "ehp7ayeol1qmq3j3ef3",
+      "type": [
+        "generalization"
+      ]
+    }
+  }
+}
