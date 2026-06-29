@@ -6,11 +6,9 @@
   ],
   "userMetadata": {
     "label": {
-      "en": "abdefc"
+      "en": "test if commit fails"
     },
-    "description": {
-      "en": ""
-    }
+    "description": {}
   },
   "metadata": {},
   "_version": 1,
